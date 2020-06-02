@@ -1,0 +1,41 @@
+{
+  "name": "super-web-cli",
+  "version": "1.0.0",
+  "description": "用于根据super_admin模板快速创建项目",
+  "main": "index.js",
+  "bin": {
+    "super-web-cli": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@vue/cli-shared-utils": "^3.11.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "fs-extra": "^8.1.0",
+    "handlebars": ">=4.3.0",
+    "inquirer": "^7.0.0",
+    "metalsmith": "^2.3.0",
+    "rollup": "^2.10.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "rollup-plugin-hashbang": "^2.2.2",
+    "rollup-plugin-json": "^4.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "hbx",
+  "license": "MIT"
+}
